@@ -1,0 +1,44 @@
+{
+    "manifest-version": 1,
+    "name": "andyc1-lightgauge",
+    "version": "0.1.0",
+    "description": "testing light gauge",
+    "author": "andyc1",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": [
+        "light",
+        "test"
+    ],
+    "homepage": "https://github.com/andyc1/databox.tutorial-light-gauge",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andyc1/databox.tutorial-light-gauge.git"
+    },
+    "packages": [
+        {
+            "id": "5b611fdd.6b1e6",
+            "name": "new package",
+            "purpose": "test",
+            "required": false,
+            "datastores": [
+                "87d05654.0736e8"
+            ],
+            "benefits": "test"
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "light",
+            "required": true,
+            "name": "light sensor",
+            "clientid": "87d05654.0736e8",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
